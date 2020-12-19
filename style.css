@@ -26,10 +26,25 @@ svg:hover{
     width: 40px;
     height: 40px;
 }
-a{
+#cv{
     color: white;
 }
-a:hover{
+#cv:hover{
     font-size: 25px;
     color: white;
+}
+.card-group{
+    color: black;
+    border-radius: 5%;
+}
+.card{
+    border-color: black;
+    margin: 10px;
+}
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #206691;
+    background-color:#206691; /* Modern Browsers */
 }
