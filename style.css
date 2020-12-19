@@ -1,50 +1,58 @@
-
-body{
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #206691;
-    color: white;
-    text-align: center;
-    font-size: 20px;
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #206691;
+  color: white;
+  text-align: center;
+  font-size: 20px;
 }
 
-#profile-image{
+#profile-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
-  margin-top: 20%;
+  margin-top: 5%;
   border-radius: 50%;
   border-style: dashed;
 }
 #text {
-    padding: 10%;
+  padding: 10%;
 }
 svg {
-    margin: 15px;
+  margin: 15px;
 }
-svg:hover{
-    width: 40px;
-    height: 40px;
+svg:hover {
+  width: 50px;
+  height: 50px;
 }
-#cv{
-    color: white;
+#cv {
+  color: white;
+  font-size: 25px;
 }
-#cv:hover{
-    font-size: 25px;
-    color: white;
+#cv:hover {
+  font-size: 40px;
+  color: white;
 }
-.card-group{
-    color: black;
-    border-radius: 5%;
+.card-group {
+  color: black;
 }
-.card{
-    border-color: black;
-    margin: 10px;
+.card {
+  border-color: black;
+  margin: 15px;
+  border-width: 2px;
+}
+.card-title {
+  font-weight: bolder;
+}
+.card-text {
+  font-size: smaller;
+}
+h5 {
+  font-size: 30px;
 }
 hr {
-    border: none;
-    height: 5px;
-    /* Set the hr color */
-    color: #206691;
-    background-color:#206691; /* Modern Browsers */
+  border: none;
+  height: 3px;
+  color: #206691;
+  background-color: #206691;
 }
